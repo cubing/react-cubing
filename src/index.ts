@@ -1,1 +1,1 @@
-export { TwistyPlayerConfig, TwistyPlayer} from './TwistyPlayer'
+export { TwistyPlayerConfig, TwistyPlayer } from './TwistyPlayer';
