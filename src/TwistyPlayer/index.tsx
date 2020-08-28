@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { TwistyPlayer as TP } from 'cubing/twisty';
-import { TwistyPlayerInitialConfig } from 'cubing/dist/esm/src/twisty/dom/TwistyPlayerConfig';
-// import {Sequence, BlockMove} from 'cubing/alg';
+import { TwistyPlayer as TP, TwistyPlayerInitialConfig } from 'cubing/twisty';
+
 
 interface TwistyPlayerConfig extends TwistyPlayerInitialConfig {
   className?: string;
