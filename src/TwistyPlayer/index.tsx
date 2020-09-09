@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { TwistyPlayer as TP, TwistyPlayerInitialConfig } from 'cubing/twisty';
 
-
 interface TwistyPlayerConfig extends TwistyPlayerInitialConfig {
   className?: string;
   onTwistyInit?: (twisty: TP) => void;
