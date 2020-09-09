@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,9 +20,8 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "cubing": "0.12.13"
-
+    "cubing": "0.12.13",
+    "react": ">=16"
   },
   "husky": {
     "hooks": {
